@@ -16,7 +16,7 @@ Recién titulado como Analista Programador del centro de formacion tecnica INACA
 
 <h3> Mis proyectos </h3>
 <div>
-  <h4>Microservicio de gestion de usuarios -> https://github.com/Ferndz99/django-api-users-service</h4>
+  <h4>Sistema de gestion de inventario basado en plantillas API Rest -> https://github.com/Ferndz99/inventory-saas</h4>
   
   ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
   ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
@@ -24,48 +24,34 @@ Recién titulado como Analista Programador del centro de formacion tecnica INACA
   ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
   ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-  <p style="">Este proyecto tiene como funcion implementar operaciones basicas de gestion de usuarios, es decir, registro, inicio de sesion, activacion de cuenta, recuperacion de contraseña, cambio de contraseña y gestion de perfil. Tambien cabe destacar que el sistema de seguridad implementado esta basado en tokens JWT los cuales a su vez son firmados por una clave privada, lo que emite un token de acceso y de refresco. Asimismo este proyecto esta desarrollado con la arquitectura de microservicio con el fin de ser implementado de manera oportunua en otros proyectos.</p>
+  <p style="">Sistema back end para la gestion de inventario basado en plantillas con autenticacion cont tokens JWT. Este es un MVP que apunta a solucionar la problematica de negocios pequeños en Chile en cuanto a la gestion de inventarios, este software busca reemplazar a excel como fuente de recopilacion de datos de negocios como retail, carnicerias, ferreterias, minimarket, etc.</p>
 
   Caracteristicas:
-  - API REST
-  - Autenticación con tokens JWT
-  - Documentacion con Swagger
-  - Arquitectura de microservicio
+- Autenticación JWT y gestión de cuentas
+- CRUD de categorías, plantillas y productos
+- Rutas de reportes sobre antradas y salidas de inventario
+- Flujo inicial de onboarding
+- Integración frontend–backend vía API REST
 </div>
 
 <div>
-  <h4>Microservicio de gestion de productos -> https://github.com/Ferndz99/django-api-products-service</h4>
+  <h4>Sistema de gestion de inventario basado en plantillas -> https://github.com/Ferndz99/inventory_saas_client</h4>
 
-  ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-  ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
+  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+  ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  ![Shadcn/ui](https://img.shields.io/badge/shadcn/ui-%23000000?style=for-the-badge&logo=shadcnui&logoColor=white)
   ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-  <p>Este proyecto esta enfocado en la gestion de productos tecnologicos con sus especificaciones, marcas y categorias. Utiliza la arquitectura de microservicios y es capaz de integrarse con el microservicio de gestion de usuarios ubicado en esta misma pagina.</p>
+  <p>Sistema front end para la gestion de inventario basado en plantillas, con dashboard administrativo y sistema de autenticacion completo basado en tokens JWT. Este es un MVP que apunta a solucionar la problematica de negocios pequeños en Chile en cuanto a la gestion de inventarios, este software busca reemplazar a excel como fuente de recopilacion de datos de negocios como retail, carnicerias, ferreterias, minimarket, etc.</p>
 
   Caracteristicas:
-  - API REST
-  - Uso de framework Django Ninja
-  - Documentacion con Swagger
-  - Arquitectura de microservicio
+- Autenticacion completa con JWT
+- Proceso de onboarding inicial para nuevos usuarios.
+- Dashboard administrativo
+- Integracion frontend-backend via API REST.
 </div>
 
-<div>
-  <h4>Api de gestion de e-commerce -> https://github.com/Ferndz99/django-api-ecommerce</h4>
-  
-  ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-  ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
-  ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-  ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
-  ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
-  <p>Esta aplicacion es capaz de gestionar las areas generales de un ecommerce, usuarios, ordenes, productos, informacion de negocio, etc. </p>
-
-  Caracteristicas:
-  - API REST
-  - Autenticación con tokens JWT
-  - Documentacion con Swagger
-  - Arquitectura monolito
-</div>
 
 -----
 <h3>Conocimiento general</h3>
